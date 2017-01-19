@@ -27,8 +27,10 @@ Otro paquete interesante a ese respecto es babel, que permitirá a LaTeX el mane
 
 De este modo, muestro documento ya empieza a parecerse a esto:
 ```
-\documentclass[a4paper,11pt]{article} \usepackage[spanish]{babel} 
-
+\documentclass[a4paper,11pt]{article} 
+  
+\usepackage[spanish]{babel} 
+  
 \usepackage[utf8]{inputenc}
 
 \begin{document}
