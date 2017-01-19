@@ -136,13 +136,13 @@ De nuevo nos topamos con la idiosincrasia de LaTeX: Todos esos espacios que hemo
 
 Si se quiere forzar un espacio, este debe de ser precedido de una barra de este modo "\ ". Para acumular varios espacios se debería poner algo así: "\ \ \ \ \".
 
-Los retornos de carro son interpretados también como espacios en blanco, para influir sobre ello hay un comando que puede resultarnos útil y es "\", que introduce un retorno de carro.
+Los retornos de carro son interpretados también como espacios en blanco, para influir sobre ello hay un comando que puede resultarnos útil y es "\\", que introduce un retorno de carro.
 
 Para separar párrafos LaTeX usa una línea en blanco (o, lo que es lo mismo, dos retornos de carro seguidos).
 
 Otra cosa que descubrimos es que el signo % se usa para marcar los comentarios. Todo lo que le siga será ignorado por el compilador
 
-Latex introducirá automáticamente retornos de carro donde sea necesario para ajustar la línea al ancho de página (más adelante veremos que se puede ajustar este comportamiento a las reglas de cada idioma), si quiere forzarse a que respte un espacio y no separe dos palabras en líneas distintas, se debe usar la tilde (~) entre ellas.
+Latex introducirá automáticamente retornos de carro donde sea necesario para ajustar la línea al ancho de página (más adelante veremos que se puede ajustar este comportamiento a las reglas de cada idioma), si quiere forzarse a que respete un espacio y no separe dos palabras en líneas distintas, se debe usar la tilde (~) entre ellas.
 
 ### Capítulos y secciones
 
